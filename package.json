@@ -1,0 +1,41 @@
+{
+  "name": "workerbee",
+  "preferGlobal": "true",
+  "description": "forever tool",
+  "version": "0.0.1",
+  "author": "TECHFUND",
+  "maintainers": [
+    "Shogo Ochiai <_sgtn@techfund.jp>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TECHFUND/workerbee"
+  },
+  "keywords": [
+    "node",
+    "tools"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "bin": {
+    "workerbee": "./bin/workerbee"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.10.x"
+  },
+  "bugs": {
+    "url": "https://github.com/TECHFUND/workerbee/issues"
+  },
+  "homepage": "https://github.com/TECHFUND/workerbee",
+  "dist": {
+    "shasum": "19698bb3a036bb6d19ecb47eef3dd0acc5fb0a4c"
+  },
+  "_resolved": "git://github.com/TECHFUND/workerbee#1a265dfd0dbfc678eedb16974918e75159aee0a9",
+  "_from": "git://github.com/TECHFUND/workerbee",
+  "_fromGithub": true,
+  "scripts": {
+    "test": "node test.js"
+  },
+  "license": "MIT"
+}
